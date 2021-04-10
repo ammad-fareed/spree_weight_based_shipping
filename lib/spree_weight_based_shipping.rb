@@ -3,6 +3,9 @@
 require_relative "spree_weight_based_shipping/version"
 
 module SpreeWeightBasedShipping
-  class Error < StandardError; end
-  # Your code goes here...
+  class WeightBasedShipping
+    def calculate(order)
+      Spree::WeightBasedShipping.first
+    end
+  end
 end
