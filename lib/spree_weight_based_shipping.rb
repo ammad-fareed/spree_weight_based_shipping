@@ -2,7 +2,7 @@
 
 require_relative "spree_weight_based_shipping/version"
 
-module SpreeWeightBasedShipping
+module Spree
   class WeightBasedShipping
     def calculate(order)
       Spree::WeightBasedShipping.first
