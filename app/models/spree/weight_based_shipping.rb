@@ -1,4 +1,4 @@
 module Spree
-  class WeightBasedShipping < ApplicationRecord
+  class WeightBasedShipping < ActiveRecord::Base
   end
 end
